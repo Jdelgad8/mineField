@@ -24,7 +24,7 @@ function crearMatriz(x, y)
 	var matriz = new Array(x);
 	for(var i = 0; i < y; i++)
 	{
-		matriz[i] =	 new Array(y);
+		matriz[i] = new Array(y);
 	}
 	return matriz; 
 }
